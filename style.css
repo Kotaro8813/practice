@@ -1,0 +1,277 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #ffffff;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #4169e1;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.clear {
+	clear: both;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+	padding: 20px 0;
+	position: fixed;
+	z-index: 10;
+}
+
+.header-left {
+	float: left;
+}
+
+.header-left h1 {
+	font-size: 30px;
+}
+
+.header-left a {
+	font-family: 'Bitter', serif;
+	color: #ffffff;
+}
+
+.header-left a:hover {
+	text-decoration: none;
+	opacity: 0.8
+}
+
+.header-right {
+	float: right;
+	padding-top: 20px;
+}
+
+.global-nav li {
+	float: left;
+	margin: 0 20px;
+	font-size: 20px;
+	list-style: none;
+	font-family: 'Bitter', serif;
+}
+
+.global-nav li a {
+	color: #ffffff;
+}
+
+.global-nav li a:hover {
+	border-bottom: 2px solid #ffffff;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+
+.top-wrapper {
+	clear: both;
+	background-image: url(../image/code.jpg);
+	background-color: rgba(0, 0, 0, 0.5);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	font-size: 16px;
+	height: 800px;
+	text-align: center;
+}
+
+.top-wrapper h1 {
+	font-family: 'Bitter', serif;
+	font-size: 100px;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+.top-wrapper .container {
+	padding-top: 200px;
+}
+
+.top-wrapper-bg {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+
+}
+
+.slidein {
+	display: none;
+	/* slideinするため消す */
+}
+
+.btn a {
+	background-color: #009cd3;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Bitter', serif;
+	width: 185px;
+	display: block;
+	text-align: center;
+	line-height: 50px;
+	margin: 60px auto 0;
+	border-radius: 5px;
+	border: 3px solid #009cd3;
+}
+
+.btn a:hover {
+	text-decoration: none;
+	background-color: #ffffff;
+	color: #009cd3;
+}
+
+
+.lesson-wrapper {
+	text-align: center;
+	padding-bottom: 60px;
+	height: 350px;
+}
+
+.heading {
+	padding: 60px 0;
+	font-family: 'Bitter', serif;
+	text-align: center;
+}
+
+.lesson {
+	width: 25%;
+	float: left;
+}
+
+.lesson-bg {
+	height: 120px;
+	border-radius: 50%;
+	width: 120px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.lesson-bg p {
+	position: absolute;
+	top: 44%;
+	width: 100%;
+	font-weight: bold;
+}
+
+.html {
+	background-color: #17cea2;
+}
+
+.jquery {
+	background-color: #f6d90a;
+}
+
+.ruby {
+	background-color: #f2241d;
+}
+
+.php {
+	background-color: #2583eb;
+}
+
+.lesson-text {
+	width: 80%;
+	display: none;
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+.text-active {
+	display: inline-block;
+}
+
+.feature-wrapper {
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding-bottom: 60px;
+}
+
+.feature {
+	margin-bottom: 30px;
+}
+
+.feature img {
+	width: 80%;
+	margin-bottom: 15px;
+}
+
+.price-wrapper {
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+table, td, th {
+	border: 1px solid #ffffff;
+	border-collapse: collapse;
+	padding: 15px;
+}
+
+.price-wrapper table {
+	margin: 0 auto;
+	width: 50%;
+}
+
+.contact-wrapper {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding-bottom: 60px;
+}
+
+.contact-wrapper form {
+	margin-bottom: 0;
+	margin-left: 200px;
+}
+
+.contact-wrapper dd {
+	padding: 10px 0;
+}
+
+.contact-wrapper dt {
+	width: 165px;
+	padding: 10px 0;
+	float: left;
+	clear: both;
+}
+
+input {
+	width: 250px;
+	height: 30px;
+
+}
+
+textarea {
+	width: 500px;
+	height: 250px;
+}
+
+.contact-submit {
+	margin-left: 165px;
+	cursor: pointer;
+}
+
+footer {
+	text-align: center;
+	padding: 20px 0;
+}
+
+footer small {
+	font-size: 12px;
+}
